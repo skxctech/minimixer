@@ -15,7 +15,7 @@ class Knob:
         self.btn = DigitalInOut(sw)
         self.btn.direction = Direction.INPUT
         self.btn.pull = Pull.UP
-        self.value = 512
+        self.value = STARTING_VOLUME
 
 class Switch:
     def __init__(self, btn):
